@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Digital Kranti Apps</title>
+    <style>
+        :root {
+            --group-link: "#";
+            --tester-link: "#";
+            --download-link: "#";
+            --developer-link: "https://play.google.com/store/apps/dev?id=6228973999530549968";
+            --contact-email: "mailto:Officialprofin@gmail.com";
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color: #fff9c4;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .instructions-title {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        p, ol {
+            color: #555;
+            font-size: 16px;
+            text-align: left;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        .spacer {
+            margin-bottom: 15px;
+        }
+        .button {
+            display: block;
+            width: calc(100% - 20px);
+            margin: 10px auto;
+            padding: 18px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+        .join-group { background: #003366; }
+        .join-testing { background: #28A745; }
+        .download-app { background: #FF8C00; }
+        .contact {
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">The Digital Kranti Apps</div>
+        
+        <p class="instructions-title">Important Instructions:</p>
+        <ol>
+            <li>First, join our <strong>testing group</strong>.</li>
+            <li>After joining, enroll as a <strong>tester</strong>.</li>
+            <li>Finally, <strong>download the app</strong> from the Play Store.</li>
+        </ol>
+        
+        <div class="spacer"></div>
+        
+        <p class="instructions-title">जरूरी जानकारी:</p>
+        <ol>
+            <li>पहले, <strong>टेस्टिंग ग्रूप</strong> जॉयन करें।</li>
+            <li>ग्रूप जॉयन करने के बाद, <strong>टेस्टर</strong> बनें।</li>
+            <li>अंत में, <strong>एप डाउनलोड</strong> करें।</li>
+        </ol>
+        
+        <div class="spacer"></div>
+        
+        <a href="javascript:void(0)" onclick="location.href=var(--group-link)" class="button join-group">Join Testing Group</a>
+        <a href="javascript:void(0)" onclick="location.href=var(--tester-link)" class="button join-testing">Join as Tester</a>
+        <a href="javascript:void(0)" onclick="location.href=var(--download-link)" class="button download-app">Download App</a>
+        
+        <div class="contact">
+            For assistance, contact us at <a href="var(--contact-email)">Officialprofin@gmail.com</a> (Software Engineer Aman Sharma)
+        </div>
+        
+        <div class="footer">
+            &copy; 2024 All Rights Reserved @ <a href="var(--developer-link)">Digital Kranti</a>
+        </div>
+    </div>
+</body>
+</html>
